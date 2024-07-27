@@ -4,11 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
     <title>Frontend Mentor | Profile Card Component</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="flex items-center justify-center md:h-screen md:w-full">
+        <div class="flex flex-col w-80 items-center gap-4 bg-slate-400">
+            <img class="w-20 rounded-full" src="/images/image-victor.jpg" alt="user-profile-image">
+            <div class="flex flex-col items-center justify-center gap-1">
+                <div class="flex text-lg gap-2">
+                    <h1 class="font-bold">Victor Crest</h1>
+                    <h2>26</h2>
+                </div>
+                <h3 class="text-sm">London</h3>
+            </div>
 
+
+            <div class="flex items-center justify-center gap-4 border-t-2 w-full">
+                <div class="flex flex-col items-center">
+                    <h4 class="text-lg font-bold">80K</h4>
+                    <p class="text-xs">Followers</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <h4 class="text-lg font-bold">803K</h4>
+                    <p class="text-xs">Likes</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <h4 class="text-lg font-bold">1.4K</h4>
+                    <p class="text-xs">Photos</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
