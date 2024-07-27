@@ -10,32 +10,45 @@
 </head>
 
 <body>
-    <div class="flex items-center justify-center md:h-screen md:w-full">
-        <div class="flex flex-col w-80 items-center gap-4 bg-slate-400">
-            <img class="w-20 rounded-full" src="/images/image-victor.jpg" alt="user-profile-image">
-            <div class="flex flex-col items-center justify-center gap-1">
-                <div class="flex text-lg gap-2">
-                    <h1 class="font-bold">Victor Crest</h1>
-                    <h2>26</h2>
-                </div>
-                <h3 class="text-sm">London</h3>
+    <div class="flex items-center justify-center h-screen w-full">
+
+        <div class="absolute inset-0 overflow-hidden flex bg-Primary-Dark-Cyan h-screen w-full">
+            <img class="absolute -left-56 -top-44 md:-top-2/3" src="/images/bg-pattern-top.svg" alt="bg-pattern-top">
+            <img class="absolute -right-56 -bottom-44 md:-bottom-2/3" src="/images/bg-pattern-bottom.svg"
+                alt="bg-pattern-bottom">
+        </div>
+
+        <div class="absolute flex flex-col w-80 items-center gap-4 bg-white rounded-xl">
+            <div class="absolute w-80"><img class=" rounded-t-xl" src="/images/bg-pattern-card.svg" alt="card-pattern">
             </div>
 
+            <div class="relative flex flex-col items-center gap-4 w-full mt-20">
+                <img class="w-18 rounded-full border-4 border-white" src="/images/image-victor.jpg"
+                    alt="user-profile-image">
+                <div class="flex flex-col items-center justify-center gap-1">
+                    <div class="flex text-lg gap-2">
+                        <h1 class="font-bold text-Primary-Very-Dark-Desaturated-Blue">Victor Crest</h1>
+                        <h2 class="text-Primary-Dark-Grayish-Blue">26</h2>
+                    </div>
+                    <h3 class="text-sm text-Primary-Dark-Grayish-Blue">London</h3>
+                </div>
 
-            <div class="flex items-center justify-center gap-4 border-t-2 w-full">
-                <div class="flex flex-col items-center">
-                    <h4 class="text-lg font-bold">80K</h4>
-                    <p class="text-xs">Followers</p>
-                </div>
-                <div class="flex flex-col items-center">
-                    <h4 class="text-lg font-bold">803K</h4>
-                    <p class="text-xs">Likes</p>
-                </div>
-                <div class="flex flex-col items-center">
-                    <h4 class="text-lg font-bold">1.4K</h4>
-                    <p class="text-xs">Photos</p>
+                <div class="flex items-center justify-between px-12 py-6 border-t-2 w-full">
+                    <div class="flex flex-col items-center">
+                        <h4 class="text-lg font-bold text-Primary-Very-Dark-Desaturated-Blue tracking-wide">80K</h4>
+                        <p class="text-xs text-Primary-Dark-Grayish-Blue tracking-widest">Followers</p>
+                    </div>
+                    <div class="flex flex-col items-center text-Primary-Very-Dark-Desaturated-Blue tracking-wide">
+                        <h4 class="text-lg font-bold">803K</h4>
+                        <p class="text-xs text-Primary-Dark-Grayish-Blue tracking-widest">Likes</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <h4 class="text-lg font-bold text-Primary-Very-Dark-Desaturated-Blue tracking-wide">1.4K</h4>
+                        <p class="text-xs text-Primary-Dark-Grayish-Blue tracking-widest">Photos</p>
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
 </body>
